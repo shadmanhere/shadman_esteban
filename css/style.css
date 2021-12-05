@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body{
     background-color: rgb(182, 182, 182);
+}
+
+#subtitle{
+    font-family: 'Corinthia', cursive;
+    font-size:2.5rem;
+}
+#title {
+    font-size:2.5rem;
+    font-family: 'Oswald', sans-serif;
+    justify-content:center;
+    letter-spacing: 0.2rem;
 }
 
 #quote{
@@ -15,10 +26,35 @@ body{
 }
 #main{
     margin: auto;
-    width: 50%;
+    width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px;
     background-color: white;
+}
+
+#tribute-info{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    
+}
+#tribute-info ul li{
+    font-size:large;
+    padding: 2px;
+}
+
+#img-caption, #readmore{
+    margin-top:20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#quote{
+    font-size:large;
+    margin: auto;
+    width: 50%;
+    text-align: justify;
 }
 
 
@@ -27,4 +63,15 @@ body{
     height: auto;
     max-width: 100%;
     display: block;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #tribute-info{
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+        background-color: white;
+        
+    }
   }
