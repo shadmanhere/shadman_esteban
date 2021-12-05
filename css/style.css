@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 769px) {
+    body {
+      font-size: 100%;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 100%;
+      
+    }
+    #main{
+        width: 100%;
+    }
+  }
+
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(182, 182, 182);
 }
 
 #quote{
@@ -7,6 +28,7 @@ body{
 }
 #title-container{
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 #main{
     margin: auto;
