@@ -49,6 +49,9 @@ body{
     text-align: center;
     font-weight: bold;
 }
+#readmore{
+    font-size: large;
+}
 
 #quote{
     font-size:large;
