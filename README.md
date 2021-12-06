@@ -1,4 +1,4 @@
-Tribute Pages
+Tribute Page
 
 
 # FCC Test Suite Template
